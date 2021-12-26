@@ -1,0 +1,11 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+city_search:
+    path: /city_search/{query}
+    controller: App\Controller\CitySearchController
+
+temperature_predict:
+    path: /temperature_predict
+    controller: App\Controller\TemperaturePredictionController
